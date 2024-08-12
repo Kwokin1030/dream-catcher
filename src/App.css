@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  background-color: black;
+  font-family: Verdana, sans-serif;
+  padding: 50px;
 }
 
 .App-logo {
@@ -35,4 +38,66 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  width: 35%;
+  border: solid 1px rgb(214, 214, 214);
+  background-color: #05071E;
+  color: #C2B067;
+}
+
+.logo{
+  border: solid 1px rgb(214, 214, 214);
+}
+
+.dreamform{
+  /* border: solid 10px green; */
+  padding: 20px 20px;
+  margin: 20px;
+}
+
+.dreamlist{
+  /* border: solid 10px yellow; */
+  background-color: #08315c;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.dreams{
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border-radius: 15px;
+  width: 60%;
+  height: 25%;
+  border: solid 1px rgb(214, 214, 214);
+  background-color: #172530;
+  color: #F4DAD2;
+  padding: 20px 50px;
+  margin: 20px;
+}
+
+.dreamy{
+  /* border: solid yellow 1px; */
+  max-width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow-wrap: break-word;
+}
+
+button{
+  width: 80px;
+  font-size: 12px;
+  margin-left: auto;
+  margin-right: auto;
 }
